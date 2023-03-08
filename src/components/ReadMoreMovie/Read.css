@@ -1,0 +1,17 @@
+.read{
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 2rem;  
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .read {
+      flex-direction: column;
+    }
+  }
+.detail{
+    padding: 2rem;
+}
+.loading{
+    color: rgb(255, 255, 255);
+}
